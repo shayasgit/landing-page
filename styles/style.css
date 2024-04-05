@@ -105,3 +105,23 @@ section.infos .flex_info {
 section.infos .flex_info div {
     flex: 1;
 }
+
+section.quote {
+    background-color: #e5e7eb;
+}
+
+section.quote cite {
+    display: block;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+    color: #1f2937;
+}
