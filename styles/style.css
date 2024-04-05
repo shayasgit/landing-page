@@ -32,6 +32,7 @@ header ul {
     display: flex;
     align-items: center;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 header ul a {
@@ -44,7 +45,11 @@ header main {
     display: flex;
     justify-content: space-between;
     margin-top: 75px;
-    gap: 300px;
+    flex-wrap: wrap;
+}
+
+header .left {
+    width: 50%;
 }
 
 header main h2 {
@@ -67,4 +72,36 @@ header button {
     font-size: 18px;
     border-radius: 8px;
     font-weight: bold;
+}
+
+section.infos h2 {
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+section.infos .img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+section.infos p {
+    text-align: center;
+    margin: 16px 80px;
+}
+
+section.infos .flex_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.infos .flex_info div {
+    flex: 1;
 }
