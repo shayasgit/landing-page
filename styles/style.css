@@ -134,9 +134,19 @@ section.contact .contact_container{
     color: #f9faf8;
     padding: 50px 100px;
     border-radius: 8px;
+    flex-wrap: wrap;
 }
 
 section.contact h2, section.contact p {
     padding: 0;
     margin: 0;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 20px;
 }
