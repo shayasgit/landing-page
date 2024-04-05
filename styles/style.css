@@ -65,7 +65,7 @@ header main p {
     font-size: 18px;
 }
 
-header button {
+header button, section.contact button {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 8px 24px;
@@ -124,4 +124,19 @@ section blockquote {
     font-style: italic;
     margin-bottom: 0;
     color: #1f2937;
+}
+
+section.contact .contact_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+section.contact h2, section.contact p {
+    padding: 0;
+    margin: 0;
 }
